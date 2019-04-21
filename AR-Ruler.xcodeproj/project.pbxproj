@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DA266D6F20006A2C000036AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA266D6E20006A2C000036AF /* AppDelegate.swift */; };
-		DA266D7120006A2C000036AF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DA266D7020006A2C000036AF /* art.scnassets */; };
 		DA266D7320006A2C000036AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA266D7220006A2C000036AF /* ViewController.swift */; };
 		DA266D7620006A2C000036AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA266D7420006A2C000036AF /* Main.storyboard */; };
 		DA266D7820006A2C000036AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA266D7720006A2C000036AF /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		DA266D6B20006A2C000036AF /* AR-Ruler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Ruler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA266D6E20006A2C000036AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA266D7020006A2C000036AF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		DA266D7220006A2C000036AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA266D7520006A2C000036AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA266D7720006A2C000036AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				DA266D6E20006A2C000036AF /* AppDelegate.swift */,
-				DA266D7020006A2C000036AF /* art.scnassets */,
 				DA266D7220006A2C000036AF /* ViewController.swift */,
 				DA266D7420006A2C000036AF /* Main.storyboard */,
 				DA266D7720006A2C000036AF /* Assets.xcassets */,
@@ -196,15 +193,18 @@
 				TargetAttributes = {
 					DA266D6A20006A2C000036AF = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					DA266D8020006A2C000036AF = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DA266D6A20006A2C000036AF;
 					};
 					DA266D8B20006A2C000036AF = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DA266D6A20006A2C000036AF;
 					};
@@ -235,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA266D7120006A2C000036AF /* art.scnassets in Resources */,
 				DA266D7B20006A2C000036AF /* LaunchScreen.storyboard in Resources */,
 				DA266D7820006A2C000036AF /* Assets.xcassets in Resources */,
 				DA266D7620006A2C000036AF /* Main.storyboard in Resources */,
@@ -436,7 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -467,7 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-RulerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Ruler.app/AR-Ruler";
 			};
@@ -484,7 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-RulerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-Ruler.app/AR-Ruler";
 			};
@@ -500,7 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-RulerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AR-Ruler";
 			};
@@ -516,7 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.AR-RulerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AR-Ruler";
 			};
