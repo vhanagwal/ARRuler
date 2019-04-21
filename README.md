@@ -55,3 +55,11 @@ Title: <create a descriptive title>
 Date: <today's date>
 Description: <a detailed description of what you did>
 ```
+
+## Meta
+
+Vardhan Agrawal
+
+Distributed under the BSD-3 license. See ``LICENSE`` for more information.
+
+[https://github.com/vhanagwal](https://github.com/vhanagwal/)
