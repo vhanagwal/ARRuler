@@ -1,7 +1,7 @@
 # ARRuler
 *A simple iOS app which measures real-world distances using ARKit and Augmented Reality.*
 
-[![](https://img.shields.io/badge/version-1.1-yellow.svg)]()
+[![](https://img.shields.io/badge/version-3.1-yellow.svg)]()
 [![](https://img.shields.io/github/repo-size/vhanagwal/ARRuler.svg)]()
 [![](https://img.shields.io/badge/build-valid-green.svg)]()
 
