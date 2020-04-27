@@ -112,6 +112,35 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
     }
     
+    // Creates measuring endpoints
+    func newSphere(at position: SCNVector3) -> SCNNode {
+        
+        // Creates an SCNSphere with a radius of 0.4
+        let sphere = SCNSphere(radius: 0.01)
+        
+        // Converts the sphere into an SCNNode
+        let node = SCNNode(geometry: sphere)
+        
+        // Positions the node based on the passed in position
+        node.position = position
+        
+        // Creates a material that is recognized by SceneKit
+        let material = SCNMaterial()
+        
+        // Converts the contents of the PNG file into the material
+        material.diffuse.contents = UIColor.orange
+        
+        // Creates realistic shadows around the sphere
+        material.lightingModel = .blinn
+        
+        // Wraps the newly made material around the sphere
+        sphere.firstMaterial = material
+        
+        // Returns the node to the function
+        return node
+        
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
